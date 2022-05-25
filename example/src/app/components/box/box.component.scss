@@ -1,0 +1,21 @@
+@use '../../../colors.scss' as theme;
+
+div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    border: 1px solid #000;
+}
+
+.primary {
+    background: theme.$primary;
+}
+
+.accent {
+    background: theme.$accent;
+}
+
+.warn {
+    background: theme.$warn;
+}
